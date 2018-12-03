@@ -1,12 +1,5 @@
 # Black Scholes NAS
 
-\begin{equation}
-	\frac{\partial \mathrm C}{ \partial \mathrm t } + \frac{1}{2}\sigma^{2} \mathrm S^{2} \frac{\partial^{2} \mathrm C}{\partial \mathrm C^2}
-	+ \mathrm r \mathrm S \frac{\partial \mathrm C}{\partial \mathrm S}\ =
-	\mathrm r \mathrm C 
-	\label{eq:1}
-\end{equation}
-
 Can an artificial neural network learn the Black Scholes option pricing formula .... yes, and quite easily.
 This problem will be used as a starting point for implementing neural architecture search (NAS). See the following two papers [Neural Architecture Search With Reinforcement Learning](https://arxiv.org/pdf/1611.01578.pdf) and [Efficient Neural Architecture Search via Parameter Sharing](https://arxiv.org/pdf/1802.03268.pdf) for an overview.
 
